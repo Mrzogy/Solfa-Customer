@@ -21,10 +21,17 @@
 		B768A0C22A3B46280061D825 /* settingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B768A0C12A3B46280061D825 /* settingsViewModel.swift */; };
 		B768A0C42A3B486D0061D825 /* LoginScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B768A0C32A3B486D0061D825 /* LoginScreenView.swift */; };
 		B768A0C72A3B4E0C0061D825 /* AllOrders.swift in Sources */ = {isa = PBXBuildFile; fileRef = B768A0C62A3B4E0C0061D825 /* AllOrders.swift */; };
+		B768A0C92A3B52EE0061D825 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = B768A0C82A3B52EE0061D825 /* Account.swift */; };
+		B768A0CC2A3B5BE70061D825 /* CustomerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B768A0CB2A3B5BE70061D825 /* CustomerViewModel.swift */; };
 		B76A1CBC2A3AED3600FE6A33 /* SolfaCoustomerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76A1CBB2A3AED3600FE6A33 /* SolfaCoustomerApp.swift */; };
 		B76A1CBE2A3AED3600FE6A33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76A1CBD2A3AED3600FE6A33 /* ContentView.swift */; };
 		B76A1CC02A3AED3800FE6A33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B76A1CBF2A3AED3800FE6A33 /* Assets.xcassets */; };
 		B76A1CC32A3AED3800FE6A33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B76A1CC22A3AED3800FE6A33 /* Preview Assets.xcassets */; };
+		B7CF61A62A3C50D500EA4AA6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF61A52A3C50D500EA4AA6 /* SettingsView.swift */; };
+		B7CF61A82A3C551E00EA4AA6 /* ContactWithUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF61A72A3C551E00EA4AA6 /* ContactWithUs.swift */; };
+		B7CF61AA2A3C78D900EA4AA6 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF61A92A3C78D800EA4AA6 /* SwiftUIView.swift */; };
+		B7CF61CC2A3CCE6800EA4AA6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF61CB2A3CCE6800EA4AA6 /* Model.swift */; };
+		B7CF61CE2A3CCEA000EA4AA6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF61CD2A3CCEA000EA4AA6 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,11 +44,18 @@
 		B768A0C12A3B46280061D825 /* settingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsViewModel.swift; sourceTree = "<group>"; };
 		B768A0C32A3B486D0061D825 /* LoginScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenView.swift; sourceTree = "<group>"; };
 		B768A0C62A3B4E0C0061D825 /* AllOrders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllOrders.swift; sourceTree = "<group>"; };
+		B768A0C82A3B52EE0061D825 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		B768A0CB2A3B5BE70061D825 /* CustomerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerViewModel.swift; sourceTree = "<group>"; };
 		B76A1CB82A3AED3600FE6A33 /* SolfaCoustomer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolfaCoustomer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B76A1CBB2A3AED3600FE6A33 /* SolfaCoustomerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolfaCoustomerApp.swift; sourceTree = "<group>"; };
 		B76A1CBD2A3AED3600FE6A33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B76A1CBF2A3AED3800FE6A33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B76A1CC22A3AED3800FE6A33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B7CF61A52A3C50D500EA4AA6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B7CF61A72A3C551E00EA4AA6 /* ContactWithUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactWithUs.swift; sourceTree = "<group>"; };
+		B7CF61A92A3C78D800EA4AA6 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		B7CF61CB2A3CCE6800EA4AA6 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		B7CF61CD2A3CCEA000EA4AA6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +77,12 @@
 		B768A0B32A3B42E10061D825 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B7CF61CD2A3CCEA000EA4AA6 /* HomeView.swift */,
+				B7CF61A92A3C78D800EA4AA6 /* SwiftUIView.swift */,
+				B768A0C62A3B4E0C0061D825 /* AllOrders.swift */,
+				B7CF61A72A3C551E00EA4AA6 /* ContactWithUs.swift */,
+				B7CF61A52A3C50D500EA4AA6 /* SettingsView.swift */,
+				B768A0C82A3B52EE0061D825 /* Account.swift */,
 				B768A0C52A3B49900061D825 /* SignInView */,
 			);
 			path = View;
@@ -71,6 +91,7 @@
 		B768A0B42A3B42EB0061D825 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B7CF61CB2A3CCE6800EA4AA6 /* Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -78,11 +99,8 @@
 		B768A0B52A3B42F50061D825 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				B734FCCD2A3AF2150029D343 /* ViewModel.swift */,
-				B768A0B62A3B432E0061D825 /* UserManager.swift */,
-				B768A0B82A3B43610061D825 /* AuthinticationManager.swift */,
-				B768A0BC2A3B443A0061D825 /* SignInEmailViewModel.swift */,
-				B768A0C12A3B46280061D825 /* settingsViewModel.swift */,
+				B768A0CA2A3B5BB50061D825 /* SignInViewModel */,
+				B768A0CB2A3B5BE70061D825 /* CustomerViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -104,10 +122,21 @@
 			path = SignInView;
 			sourceTree = "<group>";
 		};
+		B768A0CA2A3B5BB50061D825 /* SignInViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B734FCCD2A3AF2150029D343 /* ViewModel.swift */,
+				B768A0B62A3B432E0061D825 /* UserManager.swift */,
+				B768A0B82A3B43610061D825 /* AuthinticationManager.swift */,
+				B768A0BC2A3B443A0061D825 /* SignInEmailViewModel.swift */,
+				B768A0C12A3B46280061D825 /* settingsViewModel.swift */,
+			);
+			path = SignInViewModel;
+			sourceTree = "<group>";
+		};
 		B76A1CAF2A3AED3500FE6A33 = {
 			isa = PBXGroup;
 			children = (
-				B768A0C62A3B4E0C0061D825 /* AllOrders.swift */,
 				B76A1CBA2A3AED3600FE6A33 /* SolfaCoustomer */,
 				B76A1CB92A3AED3600FE6A33 /* Products */,
 				B768A0BE2A3B44E90061D825 /* Frameworks */,
@@ -226,15 +255,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				B76A1CBE2A3AED3600FE6A33 /* ContentView.swift in Sources */,
+				B768A0C92A3B52EE0061D825 /* Account.swift in Sources */,
 				B734FCCE2A3AF2150029D343 /* ViewModel.swift in Sources */,
 				B768A0B92A3B43610061D825 /* AuthinticationManager.swift in Sources */,
 				B768A0BD2A3B443A0061D825 /* SignInEmailViewModel.swift in Sources */,
+				B7CF61CE2A3CCEA000EA4AA6 /* HomeView.swift in Sources */,
 				B768A0BB2A3B440C0061D825 /* SignView.swift in Sources */,
 				B768A0B72A3B432E0061D825 /* UserManager.swift in Sources */,
+				B7CF61CC2A3CCE6800EA4AA6 /* Model.swift in Sources */,
 				B768A0C72A3B4E0C0061D825 /* AllOrders.swift in Sources */,
+				B7CF61A82A3C551E00EA4AA6 /* ContactWithUs.swift in Sources */,
+				B768A0CC2A3B5BE70061D825 /* CustomerViewModel.swift in Sources */,
 				B76A1CBC2A3AED3600FE6A33 /* SolfaCoustomerApp.swift in Sources */,
 				B768A0C42A3B486D0061D825 /* LoginScreenView.swift in Sources */,
 				B768A0C22A3B46280061D825 /* settingsViewModel.swift in Sources */,
+				B7CF61A62A3C50D500EA4AA6 /* SettingsView.swift in Sources */,
+				B7CF61AA2A3C78D900EA4AA6 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

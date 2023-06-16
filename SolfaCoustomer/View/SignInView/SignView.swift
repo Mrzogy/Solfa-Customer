@@ -36,7 +36,7 @@ struct SignView: View {
                    //
                     do{
                         try await viewModel.signIn()
-                       
+                        shoSignInView = false
                         return
                     }catch{
                         print(error)
