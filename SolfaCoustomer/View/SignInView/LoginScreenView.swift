@@ -9,14 +9,20 @@ import SwiftUI
 
 struct LoginScreenView: View {
     @State private var showSignInView: Bool = false
+    @ObservedObject var vm = ViewModel()
+    @StateObject private var viewModel = settingsViewModel()
+    @ObservedObject var vm1 = CastomerViewModel()
     var body: some View {
         ZStack{
-            NavigationStack{
+            NavigationView{
                // ProfileView(showSignInView: $showSignInView)
-               // ContentView(showsSignView: $showSignInView)
+              //  ContentView(showsSignView: $showSignInView)
+               // Account(shoSignInView: $showSignInView)
+               // AddStore(shoSignInView: $showSignInView)
+               // CreatOrder(shoSignInView: $showSignInView)
                 //Account(showsSignView: $showSignInView)
-                AllOrders(showsSignView: $showSignInView)
                 //TabViews()
+                TabView1(showsSignView: $showSignInView)
             }
             .onAppear {
                 let authuser = try? AuthinticationManager.shared.getAuthinticationUser()
@@ -27,7 +33,7 @@ struct LoginScreenView: View {
                     SignView(shoSignInView: $showSignInView)
                 }
             }
-        }
+        }.navigationBarBackButtonHidden(true)
     }
 }
 

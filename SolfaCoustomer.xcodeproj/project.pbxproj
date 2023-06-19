@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B72C24202A3FA89F004D13DA /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72C241F2A3FA89F004D13DA /* Onboarding.swift */; };
+		B72C24252A3FAA9D004D13DA /* CoustomTextFeld.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72C24242A3FAA9D004D13DA /* CoustomTextFeld.swift */; };
+		B72C24372A3FDE79004D13DA /* Onbarding2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72C24362A3FDE79004D13DA /* Onbarding2.swift */; };
 		B734FC9E2A3AEDDC0029D343 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B734FC9D2A3AEDDC0029D343 /* GoogleService-Info.plist */; };
 		B734FCA12A3AEE500029D343 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = B734FCA02A3AEE500029D343 /* FirebaseAnalytics */; };
 		B734FCA32A3AEE500029D343 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B734FCA22A3AEE500029D343 /* FirebaseAuth */; };
@@ -19,22 +22,30 @@
 		B768A0BD2A3B443A0061D825 /* SignInEmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B768A0BC2A3B443A0061D825 /* SignInEmailViewModel.swift */; };
 		B768A0C02A3B44E90061D825 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B768A0BF2A3B44E90061D825 /* FirebaseFirestoreSwift */; };
 		B768A0C22A3B46280061D825 /* settingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B768A0C12A3B46280061D825 /* settingsViewModel.swift */; };
-		B768A0C42A3B486D0061D825 /* LoginScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B768A0C32A3B486D0061D825 /* LoginScreenView.swift */; };
 		B768A0C72A3B4E0C0061D825 /* AllOrders.swift in Sources */ = {isa = PBXBuildFile; fileRef = B768A0C62A3B4E0C0061D825 /* AllOrders.swift */; };
 		B768A0C92A3B52EE0061D825 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = B768A0C82A3B52EE0061D825 /* Account.swift */; };
 		B768A0CC2A3B5BE70061D825 /* CustomerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B768A0CB2A3B5BE70061D825 /* CustomerViewModel.swift */; };
 		B76A1CBC2A3AED3600FE6A33 /* SolfaCoustomerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76A1CBB2A3AED3600FE6A33 /* SolfaCoustomerApp.swift */; };
-		B76A1CBE2A3AED3600FE6A33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76A1CBD2A3AED3600FE6A33 /* ContentView.swift */; };
 		B76A1CC02A3AED3800FE6A33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B76A1CBF2A3AED3800FE6A33 /* Assets.xcassets */; };
 		B76A1CC32A3AED3800FE6A33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B76A1CC22A3AED3800FE6A33 /* Preview Assets.xcassets */; };
+		B77A96AF2A4072B100BA0D5F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A96AE2A4072B100BA0D5F /* MapView.swift */; };
+		B7B93AC12A4001BC0005DBD1 /* LoginScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B93AC02A4001BC0005DBD1 /* LoginScreenView.swift */; };
+		B7C1376C2A4049B7002500B2 /* HomeView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C1376B2A4049B7002500B2 /* HomeView2.swift */; };
+		B7C137712A404E3F002500B2 /* HomeViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C137702A404E3F002500B2 /* HomeViewHeader.swift */; };
+		B7C137732A404F42002500B2 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C137722A404F42002500B2 /* Rectangle.swift */; };
+		B7C137752A405088002500B2 /* Stores.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C137742A405088002500B2 /* Stores.swift */; };
 		B7CF61A62A3C50D500EA4AA6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF61A52A3C50D500EA4AA6 /* SettingsView.swift */; };
 		B7CF61A82A3C551E00EA4AA6 /* ContactWithUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF61A72A3C551E00EA4AA6 /* ContactWithUs.swift */; };
 		B7CF61AA2A3C78D900EA4AA6 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF61A92A3C78D800EA4AA6 /* SwiftUIView.swift */; };
 		B7CF61CC2A3CCE6800EA4AA6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF61CB2A3CCE6800EA4AA6 /* Model.swift */; };
 		B7CF61CE2A3CCEA000EA4AA6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CF61CD2A3CCEA000EA4AA6 /* HomeView.swift */; };
+		B7FB47192A3E3DAB001E0324 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FB47182A3E3DAB001E0324 /* TabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B72C241F2A3FA89F004D13DA /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		B72C24242A3FAA9D004D13DA /* CoustomTextFeld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoustomTextFeld.swift; sourceTree = "<group>"; };
+		B72C24362A3FDE79004D13DA /* Onbarding2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onbarding2.swift; sourceTree = "<group>"; };
 		B734FC9D2A3AEDDC0029D343 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B734FCCD2A3AF2150029D343 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		B768A0B62A3B432E0061D825 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
@@ -42,20 +53,25 @@
 		B768A0BA2A3B440C0061D825 /* SignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignView.swift; sourceTree = "<group>"; };
 		B768A0BC2A3B443A0061D825 /* SignInEmailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailViewModel.swift; sourceTree = "<group>"; };
 		B768A0C12A3B46280061D825 /* settingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsViewModel.swift; sourceTree = "<group>"; };
-		B768A0C32A3B486D0061D825 /* LoginScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenView.swift; sourceTree = "<group>"; };
 		B768A0C62A3B4E0C0061D825 /* AllOrders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllOrders.swift; sourceTree = "<group>"; };
 		B768A0C82A3B52EE0061D825 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		B768A0CB2A3B5BE70061D825 /* CustomerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerViewModel.swift; sourceTree = "<group>"; };
 		B76A1CB82A3AED3600FE6A33 /* SolfaCoustomer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolfaCoustomer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B76A1CBB2A3AED3600FE6A33 /* SolfaCoustomerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolfaCoustomerApp.swift; sourceTree = "<group>"; };
-		B76A1CBD2A3AED3600FE6A33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B76A1CBF2A3AED3800FE6A33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B76A1CC22A3AED3800FE6A33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B77A96AE2A4072B100BA0D5F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		B7B93AC02A4001BC0005DBD1 /* LoginScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenView.swift; sourceTree = "<group>"; };
+		B7C1376B2A4049B7002500B2 /* HomeView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView2.swift; sourceTree = "<group>"; };
+		B7C137702A404E3F002500B2 /* HomeViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewHeader.swift; sourceTree = "<group>"; };
+		B7C137722A404F42002500B2 /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
+		B7C137742A405088002500B2 /* Stores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stores.swift; sourceTree = "<group>"; };
 		B7CF61A52A3C50D500EA4AA6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		B7CF61A72A3C551E00EA4AA6 /* ContactWithUs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactWithUs.swift; sourceTree = "<group>"; };
 		B7CF61A92A3C78D800EA4AA6 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		B7CF61CB2A3CCE6800EA4AA6 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		B7CF61CD2A3CCEA000EA4AA6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B7FB47182A3E3DAB001E0324 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,16 +90,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B72C24232A3FAA85004D13DA /* Extinsion */ = {
+			isa = PBXGroup;
+			children = (
+				B72C24242A3FAA9D004D13DA /* CoustomTextFeld.swift */,
+			);
+			path = Extinsion;
+			sourceTree = "<group>";
+		};
 		B768A0B32A3B42E10061D825 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B7C1376B2A4049B7002500B2 /* HomeView2.swift */,
 				B7CF61CD2A3CCEA000EA4AA6 /* HomeView.swift */,
 				B7CF61A92A3C78D800EA4AA6 /* SwiftUIView.swift */,
 				B768A0C62A3B4E0C0061D825 /* AllOrders.swift */,
 				B7CF61A72A3C551E00EA4AA6 /* ContactWithUs.swift */,
 				B7CF61A52A3C50D500EA4AA6 /* SettingsView.swift */,
 				B768A0C82A3B52EE0061D825 /* Account.swift */,
+				B7FB47182A3E3DAB001E0324 /* TabView.swift */,
+				B72C241F2A3FA89F004D13DA /* Onboarding.swift */,
 				B768A0C52A3B49900061D825 /* SignInView */,
+				B72C24362A3FDE79004D13DA /* Onbarding2.swift */,
+				B77A96AE2A4072B100BA0D5F /* MapView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -115,9 +144,8 @@
 		B768A0C52A3B49900061D825 /* SignInView */ = {
 			isa = PBXGroup;
 			children = (
-				B768A0C32A3B486D0061D825 /* LoginScreenView.swift */,
+				B7B93AC02A4001BC0005DBD1 /* LoginScreenView.swift */,
 				B768A0BA2A3B440C0061D825 /* SignView.swift */,
-				B76A1CBD2A3AED3600FE6A33 /* ContentView.swift */,
 			);
 			path = SignInView;
 			sourceTree = "<group>";
@@ -154,7 +182,9 @@
 		B76A1CBA2A3AED3600FE6A33 /* SolfaCoustomer */ = {
 			isa = PBXGroup;
 			children = (
+				B7C1376D2A404E17002500B2 /* Component */,
 				B76A1CBB2A3AED3600FE6A33 /* SolfaCoustomerApp.swift */,
+				B72C24232A3FAA85004D13DA /* Extinsion */,
 				B768A0B52A3B42F50061D825 /* ViewModel */,
 				B768A0B42A3B42EB0061D825 /* Model */,
 				B768A0B32A3B42E10061D825 /* View */,
@@ -171,6 +201,16 @@
 				B76A1CC22A3AED3800FE6A33 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B7C1376D2A404E17002500B2 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				B7C137702A404E3F002500B2 /* HomeViewHeader.swift */,
+				B7C137722A404F42002500B2 /* Rectangle.swift */,
+				B7C137742A405088002500B2 /* Stores.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +266,7 @@
 			mainGroup = B76A1CAF2A3AED3500FE6A33;
 			packageReferences = (
 				B734FC9F2A3AEE500029D343 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				B72C24132A3FA4B5004D13DA /* XCRemoteSwiftPackageReference "rive-ios" */,
 			);
 			productRefGroup = B76A1CB92A3AED3600FE6A33 /* Products */;
 			projectDirPath = "";
@@ -254,23 +295,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B76A1CBE2A3AED3600FE6A33 /* ContentView.swift in Sources */,
+				B7B93AC12A4001BC0005DBD1 /* LoginScreenView.swift in Sources */,
 				B768A0C92A3B52EE0061D825 /* Account.swift in Sources */,
 				B734FCCE2A3AF2150029D343 /* ViewModel.swift in Sources */,
 				B768A0B92A3B43610061D825 /* AuthinticationManager.swift in Sources */,
 				B768A0BD2A3B443A0061D825 /* SignInEmailViewModel.swift in Sources */,
 				B7CF61CE2A3CCEA000EA4AA6 /* HomeView.swift in Sources */,
+				B72C24202A3FA89F004D13DA /* Onboarding.swift in Sources */,
 				B768A0BB2A3B440C0061D825 /* SignView.swift in Sources */,
 				B768A0B72A3B432E0061D825 /* UserManager.swift in Sources */,
 				B7CF61CC2A3CCE6800EA4AA6 /* Model.swift in Sources */,
+				B72C24372A3FDE79004D13DA /* Onbarding2.swift in Sources */,
 				B768A0C72A3B4E0C0061D825 /* AllOrders.swift in Sources */,
+				B77A96AF2A4072B100BA0D5F /* MapView.swift in Sources */,
 				B7CF61A82A3C551E00EA4AA6 /* ContactWithUs.swift in Sources */,
 				B768A0CC2A3B5BE70061D825 /* CustomerViewModel.swift in Sources */,
 				B76A1CBC2A3AED3600FE6A33 /* SolfaCoustomerApp.swift in Sources */,
-				B768A0C42A3B486D0061D825 /* LoginScreenView.swift in Sources */,
 				B768A0C22A3B46280061D825 /* settingsViewModel.swift in Sources */,
+				B7C137712A404E3F002500B2 /* HomeViewHeader.swift in Sources */,
+				B7C137732A404F42002500B2 /* Rectangle.swift in Sources */,
 				B7CF61A62A3C50D500EA4AA6 /* SettingsView.swift in Sources */,
+				B7FB47192A3E3DAB001E0324 /* TabView.swift in Sources */,
+				B72C24252A3FAA9D004D13DA /* CoustomTextFeld.swift in Sources */,
 				B7CF61AA2A3C78D900EA4AA6 /* SwiftUIView.swift in Sources */,
+				B7C1376C2A4049B7002500B2 /* HomeView2.swift in Sources */,
+				B7C137752A405088002500B2 /* Stores.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +456,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,6 +486,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +524,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		B72C24132A3FA4B5004D13DA /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rive-app/rive-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
 		B734FC9F2A3AEE500029D343 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";

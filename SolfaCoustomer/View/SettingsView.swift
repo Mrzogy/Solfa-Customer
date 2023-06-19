@@ -13,20 +13,35 @@ struct SettingsView: View {
     @State var ShowAlert = false
     @Binding var showsSignView: Bool
     var body: some View {
-        List{
-            Button("Reaset Password") {
-                Task{
-                    do {
-                        try await viewModel.resetPassword()
-                        print("Password reset")
-                        ShowAlert = true
-                    } catch {
-                        print(error)
+        Form{
+            Section {
+                Button("Reaset Password") {
+                    Task{
+                        do {
+                            try await viewModel.resetPassword()
+                            print("Password reset")
+                            ShowAlert = true
+                        } catch {
+                            print(error)
+                        }
                     }
                 }
+                Button("Update Email") {
+                    Task{
+                        do {
+                            try await viewModel.updateEmail()
+                            print("Password reset")
+                           // ShowAlert = true
+                        } catch {
+                            print(error)
+                        }
+                    }
+                }
+                .alert("password is reset",isPresented: $ShowAlert) {
+                    Text("No")
             }
-            .alert("password is reset",isPresented: $ShowAlert) {
-                Text("No")
+            }header: {
+                Text("Account Settings")
             }
             
 //            Button("Update Password") {

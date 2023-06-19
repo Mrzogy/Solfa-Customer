@@ -22,17 +22,26 @@ struct Account: View {
                 VStack(alignment: .leading) {
                     Text("Name")
                     TextField("name", text: $vm1.name)
-                        .textFieldStyle(.roundedBorder)
+                        .padding()
+                        .background(Color.gray.opacity(0.4))
+                        .cornerRadius(10)
+                        //.textFieldStyle(.roundedBorder)
                 }
                 VStack(alignment: .leading) {
                     Text("phone")
                     TextField("phone", text: $vm1.phone)
-                        .textFieldStyle(.roundedBorder)
+                        .padding()
+                        .background(Color.gray.opacity(0.4))
+                        .cornerRadius(10)
+                       // .textFieldStyle(.roundedBorder)
                 }
                 VStack(alignment: .leading) {
                     Text("Email")
                     TextField("Email", text: $vm1.email)
-                        .textFieldStyle(.roundedBorder)
+                        .padding()
+                        .background(Color.gray.opacity(0.4))
+                        .cornerRadius(10)
+                        //.textFieldStyle(.roundedBorder)
                 }
 
                 
@@ -49,10 +58,10 @@ struct Account: View {
             } label: {
                 Text("Update")
                     .font(.headline)
-                    .foregroundColor(.white)
+                    .foregroundColor(Color("Color 1"))
                     .frame(maxWidth: .infinity)
                     .frame(height: 55)
-                    .background(.black)
+                    .background(Color("Color"))
                     .cornerRadius(10)
             }
             Button {
